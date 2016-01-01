@@ -12,40 +12,39 @@
 		<style>
 			body {
 				margin: 0;
-				padding: 20px;
+				padding: 40px 0;
 				color: white;
 				background: #660000 url(img/bg01.jpg) repeat;
-				font-size: small;
 				font-family: Verdana, Arial, Helvetica, sans-serif;
 			}
 
-			a, a:visited {
+			a,
+			a:visited {
 				color: #FFCC00;
 				text-decoration: underline;
 			}
 
-			a:hover, a:active {
+			a:hover,
+			a:focus {
 				color: #660000;
 				background-color: #FFCC00;
 				text-decoration: none;
 			}
 
-			#page {
-				width: 500px;
-				margin: 0 auto;
-				padding: 100px 0;
-			}
-
-			#logo {
+			.logo {
 				text-align: center;
 			}
 		</style>
 	</head>
 
 	<body>
-		<div id="page">
-			<p id="logo"><img src="img/logo.png" alt="Urban Haat" title="Urban Haat" width="454" height="89" /></p>
-		</div>
+		<div class="container">
+			<div class="row">
+				<div class="logo col-sm-6 col-sm-offset-3">
+					<img src="img/logo.svg" alt="Urban Haat" title="Urban Haat">
+				</div>
+			</div> <!-- end .row -->
+		</div> <!-- end .container -->
 
 		<script>
 			(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
