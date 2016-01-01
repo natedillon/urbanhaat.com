@@ -1,5 +1,4 @@
 <!doctype html>
-
 <html class="no-js" lang="en">
 	<head>
 		<meta charset="utf-8">
@@ -13,9 +12,7 @@
 				margin: 0;
 				padding: 20px;
 				color: white;
-				background-color: #660000;
-				background-image: url(images/bg01.jpg);
-				background-repeat: repeat;
+				background: #660000 url(img/bg01.jpg) repeat;
 				font-size: small;
 				font-family: Verdana, Arial, Helvetica, sans-serif;
 			}
@@ -45,7 +42,7 @@
 
 	<body>
 		<div id="page">
-			<p id="logo"><img src="images/logo.png" alt="Urban Haat" title="Urban Haat" width="454" height="89" /></p>
+			<p id="logo"><img src="img/logo.png" alt="Urban Haat" title="Urban Haat" width="454" height="89" /></p>
 		</div>
 
 		<script>
