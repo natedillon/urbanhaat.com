@@ -10,11 +10,16 @@
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
 
 		<style>
+			html {
+				font-size: 10px;
+			}
+
 			body {
-				padding-top: 40px;
 				padding-bottom: 40px;
 				color: white;
 				background: #660000 url(img/bg.jpg) repeat;
+				font-size: 14px;
+				line-height: 1.5;
 			}
 
 			a,
@@ -31,17 +36,51 @@
 			}
 
 			.logo {
-				width: 100%;
+				margin: 40px 0 140px 0;
+				padding: 0;
 				text-align: center;
+			}
+
+			.logo img {
+				width: 100%;
+			}
+
+			.advertising {
+				text-align: center;
+			}
+
+			.advertising__header {
+				color: white;
+				color: rgba(255, 255, 255, 0.5);
+				font-size: 10px;
+				font-size: 1.0rem;
+				letter-spacing: 2px;
+				text-transform: uppercase;
 			}
 		</style>
 	</head>
 
 	<body>
 		<div class="container">
-			<div class="row">
+			<header class="row">
 				<div class="col-sm-8 col-sm-offset-2 col-md-6 col-md-offset-3">
-					<img src="img/logo.svg" alt="Urban Haat" title="Urban Haat" class="logo">
+					<h1 class="logo"><img src="img/logo.svg" alt="Urban Haat" title="Urban Haat"></h1>
+				</div> <!-- end .col-* -->
+			</header> <!-- end .row -->
+
+			<div class="advertising row">
+				<div class="col-xs-12">
+					<h2 class="advertising__header">Advertisement</h2>
+					<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+						<!-- Urban Haat -->
+						<ins class="adsbygoogle"
+						     style="display:block"
+						     data-ad-client="ca-pub-5180039549411209"
+						     data-ad-slot="6377557403"
+						     data-ad-format="auto"></ins>
+						<script>
+						(adsbygoogle = window.adsbygoogle || []).push({});
+					</script>
 				</div> <!-- end .col-* -->
 			</div> <!-- end .row -->
 		</div> <!-- end .container -->
