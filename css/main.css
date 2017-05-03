@@ -5,22 +5,15 @@ html {
 body {
 	padding-bottom: 40px;
 	color: white;
-	background: #660000 url(../img/bg.jpg) repeat;
+	background-color: #353895;
 	font-size: 14px;
 	line-height: 1.5;
 }
 
 a,
 a:visited {
-	color: #FFCC00;
+	color: white;
 	text-decoration: underline;
-}
-
-a:hover,
-a:focus {
-	color: #660000;
-	background-color: #FFCC00;
-	text-decoration: none;
 }
 
 .logo {
