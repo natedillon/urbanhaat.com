@@ -1,0 +1,47 @@
+html {
+	font-size: 10px;
+}
+
+body {
+	padding-bottom: 40px;
+	color: white;
+	background: #660000 url(../img/bg.jpg) repeat;
+	font-size: 14px;
+	line-height: 1.5;
+}
+
+a,
+a:visited {
+	color: #FFCC00;
+	text-decoration: underline;
+}
+
+a:hover,
+a:focus {
+	color: #660000;
+	background-color: #FFCC00;
+	text-decoration: none;
+}
+
+.logo {
+	margin: 40px 0 140px 0;
+	padding: 0;
+	text-align: center;
+}
+
+.logo img {
+	width: 100%;
+}
+
+.advertising {
+	text-align: center;
+}
+
+.advertising__header {
+	color: white;
+	color: rgba(255, 255, 255, 0.5);
+	font-size: 10px;
+	font-size: 1.0rem;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+}
