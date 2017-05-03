@@ -30,12 +30,13 @@ img {
   height: auto;
 }
 
-.logo {
+.header__logo {
 	margin: 0;
 	padding: 0;
 	text-align: center;
 }
 
-.logo img {
-	width: auto;
+#logo .path-1,
+#logo .path-2 {
+  fill: white;
 }
