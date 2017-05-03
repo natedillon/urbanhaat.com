@@ -19,21 +19,15 @@ body {
   line-height: 1.5;
 }
 
-a {
-	color: white;
-	text-decoration: underline;
-  transition: all 0.2s linear;
-}
-
-img {
-  max-width: 100%;
-  height: auto;
-}
-
 .header__logo {
 	margin: 0;
 	padding: 0;
 	text-align: center;
+}
+
+.header__logo-img {
+  max-width: 100%;
+  height: auto;
 }
 
 #logo .path-1,
