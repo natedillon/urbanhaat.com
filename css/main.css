@@ -61,7 +61,7 @@ body {
   height: auto;
 }
 
-#logo .path-1,
-#logo .path-2 {
+#logo path,
+#logo rect {
   fill: white;
 }
